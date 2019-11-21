@@ -1,7 +1,7 @@
 html {
     background-image: url(../images/ocean-wave-splashing-on-dock.jpg);
     /* background-size : cover; */
-    font-family: 'Oldenburg', cursive;
+    font-family: 'Permanent Marker', cursive;
 }
 
 * {
@@ -49,4 +49,8 @@ font-size:2em
 
 .even-row {
     background-color: #b7bdf0;
+}
+
+.sidebar-heading{
+    text-transform: uppercase;
 }
