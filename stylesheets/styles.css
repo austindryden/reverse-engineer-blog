@@ -1,6 +1,52 @@
+html {
+    background-image: url(../images/ocean-wave-splashing-on-dock.jpg);
+    /* background-size : cover; */
+    font-family: 'Oldenburg', cursive;
+}
+
 * {
-    color:rgb(85, 19, 94);
+    color:rgba(133, 83, 128, 0.376);
+    /*a means alpha channel, which is a opacity slider*/
+}
 
+p{
+    color: #5d5d5d;
+}
 
+table{
+    width: 100%;
+    border-spacing: 0px;
+}
 
+th{
+    color : #fafafa;
+    background-color: #4285f4;
+    }
+
+th td{
+    padding : 20px;
+}
+.column-1 {
+    text-align: left;
+
+}
+.column-2 {
+    text-align: right;
+}
+
+tr:hover {
+    background-color:rgb(136, 141, 204)
+}
+
+tr:hover td {
+    color:white;
+font-size:2em
+}
+
+.odd-row {
+    background-color: #b4d0dd;
+}
+
+.even-row {
+    background-color: #b7bdf0;
 }
